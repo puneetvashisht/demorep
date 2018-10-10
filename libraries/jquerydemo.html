@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Some Title</title>
+    </head>
+    <body>
+        <h1 id="message">Basic Simple</h1>
+        <h1 id="test">Basic Simple</h1>
+
+        <button onclick="changeText()">Change Text</button>
+
+
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script>
+
+            function changeText(){
+                $('#message').html('Changed using jquery');
+                // console.log('clicked...');
+                // document.getElementsByTagName('h1')[0].innerText = "Change the first only"
+            } 
+
+        </script>
+
+
+
+    </body>
+</html>

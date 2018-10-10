@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Emmet</title>
+</head>
+<body>
+    <div>
+        <input type="text" id="message">
+        <span id="display"></span>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+    <script>
+        $('#message').keyup(function(){
+            console.log('keyup event....');
+            console.log($('#message').val())
+            $('#display').html($('#message').val());
+        })
+
+    </script>
+</body>
+</html>
